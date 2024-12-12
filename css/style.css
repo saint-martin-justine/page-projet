@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101828;
+    color: #fff;
+}
+
+/* Section Realisations */
+.realisations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.realisations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.realisations p {
+    font-size: 1rem;
+    color: #d0d5dd;
+    margin-bottom: 40px;
+}
+
+/* Container for Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Project Card */
+.project {
+    background-color: #1d2939;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 0.9rem;
+    color: #d0d5dd;
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust card color for alternating rows (optional) */
+.projects .project:nth-child(odd) {
+    background-color: #2e3a4f;
+}
